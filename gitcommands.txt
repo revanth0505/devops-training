@@ -1,0 +1,27 @@
+Git commands:
+git status - to check the status of files created
+git commit -m "comment" - to commit some files in repo.
+git add filename - to add files to the repo
+git config --global user.mail/user.name name/email- to connect the rapo to ur mail/account.
+git checkout filename- to revert back to previous commit.
+git reset HEAD - to reset the head commit.
+git log --oneline - previous commits
+git revert idofcommit - to revert after commit
+vi filename - command prompt editor.
+git blame filename - changes made line by line
+git clone url - to clone a repo.
+git push origin main - files changed or updated will be pushed into repo.
+git remote -v - 
+git pull <remote> - copy the updated files from repo and mere with local copy.
+git fetch <remote> followed by git merge origin/<current-branch> - review the files before commit.
+git push <remote> <branch> - to push into a particular brach.
+git remote - to know where the git repo is working.
+git remote add <name><url> - create a new connection.
+git branch - to know the current branch working on.
+git push/pull origin main - to push or pull the updated files from git.
+ssh-keygen - to generate ssh key to connect github.
+git branch <branchname> - create a new branch
+git branch -d <branchname> - delete branch.
+git branch -m <branchname> - del current branch
+git checkout -b <newbranch> - create a new branch and move to that branch
+git checkout <existingbranch> - move to already existing brnch.
