@@ -1,0 +1,150 @@
+289  git branch
+  290  git branch b1
+  291  git branch
+  292  git checkout -b b2
+  293  git branch
+  294  git log
+  295  clear
+  296  git log --oneline
+  297  git checkout main
+  298  git branch
+  299  ls -lrth
+  300  git status
+  301  clear
+  302  git branch
+  303  git checkout b1
+  304  echo "file created on b1" > b1.html
+  305  ls -lrth
+  306  git status
+  307  git add .
+  308  git commit -m "file created on b1"
+  309  git status
+  310  clear
+  311  git log --oneline
+  312  git checkout main
+  313  git log
+  314  ls -lrth
+  315  clear
+  316  git checkout b1
+  317  ls -lrth
+  318  git checkout main
+  319  clear
+  320  git merge b1
+  321  git log --oneline
+  322  ls
+  323  git branch -d b1
+  324  git branch
+  325  git checkout b2
+  326  echo "404 error" > error.html
+  327  git add .
+  328  git commit -m "error file added"
+  329  git status
+  330  git log --oneline
+  331  git checkout main
+  332  git merche b2
+  333  git merge b2
+  334  clear
+  335  git status
+  336  git log --oneline
+  337  ls -lrth
+  338  clear
+  339  git branch -d b2
+  340  clear
+  341  git branch
+  342  history
+===================
+
+Morning commands
+======
+
+6  cat index.html
+   97  git log
+   98  vi index.html
+   99  cat index.html
+  100  clear
+  101  git status
+  102  git checkout index.html
+  103  git status
+  104  cat index.html
+  105  vi index.html
+  106  git status
+  107  git add .
+  108  clear
+  109  git status
+  110  git reset HEAD
+  111  git status
+  112  git checkout index.html
+  113  git status
+  114  cat index.html
+  115  echo "Developed by Dilip " >> index.html
+  116  cat index.html
+  117  git status
+  118  git add .
+  119  git commit -m "author details updated"
+  120  git status
+  121  clear
+  122  git log
+  123  cat index.html
+  124  git log --oneline
+  125  git revert 591ebc3
+  126  git status
+  127  cat index.html
+  128  clear
+  129  mv index.html head.html
+  130  git status
+  131  git add .
+  132  git commit -m "file name changed"
+  133  clear
+  134  git status
+  135  git log --oneline
+  136  clear
+  137  vi error.html
+  138  git add .
+  139  git commit -m "error page is created"
+  140  echo "404 page" >> error.html
+  141  git add .
+  142  git commit -m "error page updated"
+  143  git status
+  144  clear
+  145  ls -lrth
+  146  git log
+  147  clear
+  148  git blame error.html
+  149  history
+
+==============
+1  clear
+    2  uname -a
+    3  cat /etc/os-release
+    4  clear
+    5  sudo apt-get install git
+    6  git --version
+    7  clear
+    8  mkdir myproject
+    9  cd myproject
+   10  clear
+   11  git init
+   12  ls -al
+   13  clear
+   14  git config --global user.name Dilip kumar
+   15  git config --global user.email dilip.trainer06@gmail.com
+   16  cat ../.gitconfig
+   17  clear
+   18  git config --global color.ui auto
+   19  clear
+   20  cat ../.gitconfig
+   21  clear
+   22  git status
+   23  clear
+   24  echo "My first file" > index.html
+   25  ls -lrth
+   26  git status
+   27  git add index.html
+   28  git status
+   29  clear
+   30  git commit -m "first file created"
+   31  git status
+   32  git log
+   33  history
+===================
+
